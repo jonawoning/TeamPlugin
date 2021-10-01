@@ -1,0 +1,27 @@
+###########################
+# Plugin made by:         #
+# Jona / Pottenmaker      #
+# Dicord: Jona#7797       #
+# Open for new            #
+# challanges!             #
+# This plugin is made for #
+# fun, so respect it!     #
+###########################
+
+#Prefix of the messages.
+Prefix: '&c&lTeams &8&l> &7'
+
+#Configurations about the people with no team.
+NoTeam_Name: 'No-Team'
+NoTeam_Prefix: '&cNo-Team'
+
+#Configurations about the NameTag+Tab of players.
+Use_Tab: false
+
+#Chat configurations.
+Use_Chat_System: true
+Global_Chat_Format: '&c[G] &7[&a%TeamP_teamprefix%&7] &7%player%: &f%message%'
+Team_Chat_Format: '&a[T] &7%player%: &a%message%'
+
+#Channel prefixes:
+Global_Letter: '!'
