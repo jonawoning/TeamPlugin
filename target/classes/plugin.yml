@@ -1,0 +1,11 @@
+name: TeamPlugin
+version: 0.2
+main: nl.snowpix.teamplugin.TeamPlugin
+api-version: 1.16
+authors: [ Pottenmaker ]
+description: TeamPlugin of Empalis.
+website: www.snowpix.nl
+commands:
+  teams:
+    description: The main command for the teams plugin.
+    aliases: [team]
