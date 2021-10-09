@@ -1,0 +1,31 @@
+Ranks:
+  Koning:
+    Prefix: '&7[&6Koning&7]'
+    Display: '&6Koning'
+    TabSuffix: '&7[&6K&7]'
+    Weight: 3
+    Permissions:
+      - kingdom.kick
+      - kingdom.setrank
+      - kingdom.invite
+      - kingdom.ally
+      - kingdom.neutral
+      - kingdom.setspawn
+      - kingdom.join
+      - kingdom.spawn
+  Hertog:
+    Prefix: '&7[&2Hertog&7]'
+    Display: '&2Hertog'
+    Weight: 2
+    Permissions:
+      - kingdom.kick
+      - kingdom.invite
+      - kingdom.join
+      - kingdom.spawn
+  Burger:
+    Prefix: '&7[&8Burger&7]'
+    Display: '&8Burger'
+    Weight: 1
+    Permissions:
+      - kingdom.join
+      - kingdom.spawn
