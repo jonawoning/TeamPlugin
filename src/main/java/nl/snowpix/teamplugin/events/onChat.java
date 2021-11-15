@@ -58,7 +58,9 @@ public class onChat implements Listener {
                     }else{
                         //MESSAGE FOR THE PEOPLE THAT AREN'T A ALLY OR TEAMMATE.
 
-                        people.sendMessage(PlaceholderAPI.setPlaceholders(player, TeamPlugin.instance.kgetConfig().Global_Chat_Format).replace("%player%", player.getName())
+                        people.sendMessage(PlaceholderAPI.setPlaceholders(player, TeamPlugin.instance.kgetConfig().Global_Chat_Format)
+                                .replace("%t_color%", TeamPlugin.instance.kgetConfig().Other_Color)
+                                .replace("%player%", player.getName())
                                 .replace("%message%", (player.hasPermission("teams.colorchat"))
                                         ? ChatColor.translateAlternateColorCodes('&', e.getMessage().substring(1)) : e.getMessage().substring(1)));
                     }
